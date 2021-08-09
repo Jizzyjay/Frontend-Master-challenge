@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #d1e1e6;
+    padding: 7rem 0;
+}
+
+h1 {
+    color: #333;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+/*
+.container {
+     background: linear-gradient(to right bottom, 
+    #80c6ee, 
+    #b6def5);
+    background: #fff;
+    min-height: 70vh;
+    width: 57%;
+    border-radius: 2rem;
+    display: fixed;
+}
+*/
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 375px;
+    margin: 0rem auto 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+
+
+.container > img {
+    border-radius: 5%;
+    margin-bottom: 3rem;
+}
+
+.order {
+    text-align: center;
+}
+
+.order h1 { 
+    margin-bottom: 2rem;
+}
+
+.order p {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.payment-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    padding: 5px;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 1.5rem auto;
+    background-color: #ebf0f5;
+    border-radius: 20px;
+}
+
+.payment-wrapper a{
+    font-weight: 800;
+    color: #0717f5;
+}
+
+.payment-wrapper img {
+    height: 3em;
+}
+
+.payment-wrapper p{
+    margin: 0;
+}
+
+a:hover{
+    color: sienna;
+}
+
+.btn {
+    color: #fff;
+    background-color: #0717f5;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: .65;
+    color: sienna;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.cancel-order {
+    font-weight: 800;
+}
+
+.cancel-order:hover {
+    cursor: pointer;
+    color: sienna
+}
